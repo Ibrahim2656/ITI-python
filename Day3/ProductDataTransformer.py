@@ -70,7 +70,7 @@ def product_data_transformer():
         json.dump(transformed,f,indent=4)
         
     # Step 7: Print preview of first 5 results
-    print(f"✅ Product data saved into {json_file}. Preview (first 5 items):")
+    print(f"Product data saved into {json_file}. Preview (first 5 items):")
     for item in transformed[:5]:
         print(" ", item)
     
